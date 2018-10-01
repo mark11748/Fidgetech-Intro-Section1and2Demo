@@ -1,0 +1,10 @@
+body{
+  background-color: #515151;
+}
+
+.card {
+  border-style:  inset;
+  border-color:  #3fff00;
+  border-width:  .25em;
+  border-radius: 1em;
+}
