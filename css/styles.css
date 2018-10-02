@@ -1,9 +1,66 @@
-body{
-  background-color: #515151;
+html {
+  border-style:  outset;
+  border-color:  lightgray;
+  border-width:  5px;
+  margin: auto;
+  padding: 0px;
 }
 
+html, body {
+  position: relative;
+  z-index: 0;
+  background-color: #515151;
+  width: 100%;
+  height: 1200px;
+}
+
+body {
+    background-image: url("../img/CircutWall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#PAGE-HEADER {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: lightgray;
+  border-bottom: 5px red solid;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin: 0px;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 125px;
+}
+.row {
+    top: 250px;
+    min-height: 300px;
+}
 .card {
   border-style:  inset;
+  border-color:  #3fff00;
+  border-width:  .25em;
+  border-radius: 1em;
+  clip: inherit;
+  position: relative;
+  min-height: 100%;
+}
+div.card form {
+  display:none;
+}
+
+div#WINDOW {
+  background-image: url("../img/binaryWall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style:  outset;
   border-color:  #3fff00;
   border-width:  .25em;
   border-radius: 1em;
