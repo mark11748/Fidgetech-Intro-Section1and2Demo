@@ -27,6 +27,10 @@ body {
   top: 0;
   z-index: 1;
   background-color: lightgray;
+  background-image: url("../img/CircutWall2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom: 5px red solid;
   text-align: center;
   color: black;
@@ -51,7 +55,7 @@ body {
   position: relative;
   min-height: 100%;
 }
-div.card form {
+div.card form,#RESULT-BOX {
   display:none;
 }
 
